@@ -1,17 +1,19 @@
-node_modules
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables
 .env
+.env.*
 
-# Hardhat files
-/cache
-/artifacts
+# Node.js
+node_modules/
 
-# TypeChain files
-/typechain
-/typechain-types
+# Hardhat
+artifacts/
+cache/
 
-# solidity-coverage files
-/coverage
-/coverage.json
-
-# Hardhat Ignition default folder for deployments against a local node
-ignition/deployments/chain-31337
+# OS
+.DS_Store
+Thumbs.db
